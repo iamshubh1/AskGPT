@@ -25,7 +25,7 @@ function App() {
 
     setLoading(true);
     axios
-      .post("http://localhost:3000/", {
+      .post("https://askgpt-atwj.onrender.com/", {
         question,
       })
       .then((response) => {
