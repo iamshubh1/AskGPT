@@ -12,7 +12,7 @@ h1{
   width: 0;
   animation: typing;
   animation-duration: 15s;
-  animation-timing-function: steps(200,end);
+  animation-timing-function: steps(100,end);
   animation-fill-mode: forwards;
 }
 
