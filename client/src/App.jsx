@@ -97,7 +97,7 @@ function App() {
           type="text"
           ref={inputRef}
           class="form-control col"
-          placeholder="Type Something"
+          placeholder="Type here to ask..."
         />
         <button disabled={loading} class="btn btn-danger" onClick={handleSend}>
           Send
