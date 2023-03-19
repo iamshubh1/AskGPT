@@ -25,7 +25,7 @@ function App() {
 
     setLoading(true);
     axios
-      .post("https://askgpt-atwj.onrender.com/", {
+      .post("https://askgpt-server.vercel.app/", {
         question,
       })
       .then((response) => {
